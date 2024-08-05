@@ -23,7 +23,27 @@
         </assets>
     </extension>
 </addon>
-
+<addon id="plugin.video.socolive" name="SOCOlive" version="0.0.1" provider-name="socolive">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.htmlement"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description lang="vi">socolive</description>
+        <disclaimer lang="vi">socolive</disclaimer>
+        <summary lang="vi">socolive</summary>
+		<language>vi</language>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
 <addon id="script.module.requests" name="requests" version="2.32.3" provider-name="Python Software Foundation, mkendo">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
