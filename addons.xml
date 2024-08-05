@@ -156,12 +156,12 @@
     </extension>
 </addon>
 	
-<addon id="kenvnm" name="kenvnm" version="0.0.1" provider-name="kenvnm">
+<addon id="kenvnm" name="kenvnm" version="0.0.2" provider-name="kenvnm">
 	<extension point="xbmc.addon.repository" name="kenvnm">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/kenvnm/kenvnm.github.io/master/addons.xml</info>
 			<checksum>https://one.one.one.one/cdn-cgi/trace</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/kenvnm/kenvnm.github.io/master/repos/</datadir>
+			<datadir zip="true">https://raw.githubusercontent.com/kenvnm/kenvnm.github.io/master/</datadir>
 		</dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
