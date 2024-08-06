@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.caheo" name="CAHEO" version="0.0.1" provider-name="caheo">
+<addon id="plugin.video.caheo" name="CAHEO" version="0.0.2" provider-name="caheo">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
